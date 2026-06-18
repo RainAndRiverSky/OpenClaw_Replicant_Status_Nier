@@ -28,6 +28,18 @@ Payment providers remain authoritative for settlement state. Nier observes provi
 
 The current work establishes Nier's identity, authority boundaries, canonical governed objects, principles, and readiness criteria. This repository does not yet contain billing integrations or operational billing services.
 
+## Shared Foundations
+
+Nier references Shared Foundations by Reference + Inheritance only from the canonical
+public repository:
+
+`https://github.com/RainAndRiverSky/OpenClaw_Shared_Foundations`
+
+Canonical Shared Foundations documents are not copied into this repository. Nier retains
+authority over billing governance, billing evidence, authorization, reconciliation,
+entitlements, provider boundaries, billing lifecycle integrity, and billing audit
+expectations.
+
 ## Core Responsibilities
 
 - Require evidence before consequential billing actions
@@ -65,3 +77,38 @@ Provider-specific state must never silently become trusted OpenClaw state. It mu
 9. Implement governance controls only after foundation approval.
 
 No payment processing, provider integration, API, webhook, or database implementation is included in this phase.
+
+## Repository Structure
+
+```text
+README.md
+LICENSE
+OPENCLAW_BILLING_CHARTER_v0.1.md
+NIER_GOVERNANCE_STATUS_v0.1.md
+identity/
+  NIER_STEWARD_IDENTITY_v0.1.md
+docs/
+  governance/
+    shared-foundations/
+      NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md
+      NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md
+      NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md
+  handoffs/
+    Historical governance records
+```
+
+## Documentation
+
+Primary governance documents:
+
+- `OPENCLAW_BILLING_CHARTER_v0.1.md`
+- `NIER_GOVERNANCE_STATUS_v0.1.md`
+- `identity/NIER_STEWARD_IDENTITY_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
+
+## License
+
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for
+details.

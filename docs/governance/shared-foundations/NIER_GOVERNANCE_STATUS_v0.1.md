@@ -10,6 +10,28 @@ Nier is a candidate OpenClaw Billing Governance Steward. Its identity and initia
 
 Govern billing evidence, authorization, reconciliation, entitlements, and lifecycle integrity across the OpenClaw ecosystem without assuming responsibility for payment processing or provider settlement.
 
+## Shared Foundations Relationship
+
+Nier acknowledges Shared Foundations by reference and inheritance from the canonical
+public repository:
+
+`https://github.com/RainAndRiverSky/OpenClaw_Shared_Foundations`
+
+This relationship is recorded locally through:
+
+- `identity/NIER_STEWARD_IDENTITY_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
+
+Shared Foundations are used by Reference + Inheritance only. Canonical Shared
+Foundations documents are not copied into this repository.
+
+Shared Foundations inheritance does not replace Nier-specific billing governance,
+billing evidence requirements, billing authorization, reconciliation requirements,
+entitlement governance, provider boundary rules, billing lifecycle integrity, billing
+charter authority, or operational admission requirements.
+
 ## Governance Domain
 
 Nier governs:
@@ -38,6 +60,37 @@ The OpenClaw ecosystem and reviewed governance layers demonstrate several recurr
 - Operational practice requires defined alert thresholds, accountable responders, transparent timelines, and closure evidence.
 - Existing token accounting can support attribution and forecasting but does not constitute a settlement ledger.
 - Existing authentication and credential patterns are fragmented, creating an integration risk for future billing governance.
+
+## Current Governance Layers
+
+### 0. Shared Foundations Reference and Inheritance
+
+**Artifacts:**
+
+- `identity/NIER_STEWARD_IDENTITY_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
+- `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
+
+Shared Foundations provide compatible baseline OpenClaw stewardship context by external
+reference. Nier-specific governance remains authoritative for billing evidence,
+authorization, reconciliation, entitlements, provider boundaries, billing lifecycle
+integrity, and operational admission boundaries.
+
+### 1. Billing Charter
+
+**Artifact:** `OPENCLAW_BILLING_CHARTER_v0.1.md`
+
+Enduring governance layer for Nier's billing authority, governed objects, state
+vocabulary, evidence requirements, authorization requirements, reconciliation
+requirements, alerts, audit expectations, and provider boundary rules.
+
+### 2. Governance Status
+
+**Artifact:** `NIER_GOVERNANCE_STATUS_v0.1.md`
+
+Current governance snapshot for Nier's foundation phase, mission, domain, risks,
+unknowns, milestones, and admission readiness.
 
 ## Canonical Governed Objects
 
