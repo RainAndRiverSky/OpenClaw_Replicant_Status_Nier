@@ -114,11 +114,7 @@ Security review passed.
 
 Local Path Inspection Completed
 
-Repository inspected for:
-
-/Volumes/
-
-references.
+Repository inspected for local machine path prefix references.
 
 Finding:
 
@@ -198,7 +194,7 @@ OpenClaw_Billing_Nier_Bot
 
 Verification performed:
 
-grep -R “/Volumes/” docs/handoffs
+repository-specific local path scan across `docs/handoffs`
 
 Result:
 
@@ -286,11 +282,7 @@ Public Steward Readiness Review
 8. Publication handoff preservation
 9. GitHub visibility review
 
-Local path scan specifically includes:
-
-grep -R “/Volumes/” .
-
-or equivalent repository-specific inspection.
+Local path scan specifically includes repository-specific inspection for local machine path prefixes.
 
 Purpose:
 

@@ -81,20 +81,24 @@ No payment processing, provider integration, API, webhook, or database implement
 ## Repository Structure
 
 ```text
+.gitignore
 README.md
 LICENSE
 OPENCLAW_BILLING_CHARTER_v0.1.md
-NIER_GOVERNANCE_STATUS_v0.1.md
 identity/
   NIER_STEWARD_IDENTITY_v0.1.md
 docs/
   governance/
     shared-foundations/
+      NIER_GOVERNANCE_STATUS_v0.1.md
       NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md
       NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md
       NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md
   handoffs/
-    Historical governance records
+    Published milestone handoff records
+evidence/
+  PORTABILITY-AUDIT-20260621/
+    audit_notes.md
 ```
 
 ## Documentation
@@ -102,11 +106,23 @@ docs/
 Primary governance documents:
 
 - `OPENCLAW_BILLING_CHARTER_v0.1.md`
-- `NIER_GOVERNANCE_STATUS_v0.1.md`
+- `docs/governance/shared-foundations/NIER_GOVERNANCE_STATUS_v0.1.md`
 - `identity/NIER_STEWARD_IDENTITY_v0.1.md`
 - `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
 - `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
 - `docs/governance/shared-foundations/NIER_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
+
+Published milestone handoffs:
+
+- `docs/handoffs/✨🌊 COMPLETE — OPENCLAW BILLING GOVERNANCE STEWARD NIER FOUNDATION + FIRST ADMISSION CHECKPOINT HANDOFF 🌊✨.md`
+- `docs/handoffs/✨🌊 COMPLETE — NIER SHARED FOUNDATIONS ADOPTION + GOVERNANCE ALIGNMENT HANDOFF 🌊✨.md`
+- `docs/handoffs/✨🌊 COMPLETE — NIER BILLING GOVERNANCE AUTHORITY INVESTIGATION + ROOT AUTHORITY DISCOVERY HANDOFF 🌊✨.md`
+- `docs/handoffs/✨🌊 COMPLETE — NIER FOUNDATION PROMOTION + BILLING DECISION AUTHORITY VALIDATION + GITHUB PUBLICATION COMPLETION HANDOFF 🌊✨.md`
+- `docs/handoffs/✨🌊 COMPLETE — NIER PUBLIC READINESS VALIDATION + LOCAL PATH SANITIZATION CHECKPOINT HANDOFF 🌊✨.md`
+
+Evidence archives:
+
+- `evidence/PORTABILITY-AUDIT-20260621/audit_notes.md`
 
 ## License
 
